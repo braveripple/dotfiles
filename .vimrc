@@ -42,4 +42,4 @@ augroup END
 
 nnoremap <Leader>ev :e ~/dotfiles/.vimrc
 nnoremap <Leader>cv :e ~/dotfiles/cheatsheets/vim.txt
-
+nnoremap q: <Nop>
