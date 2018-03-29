@@ -16,8 +16,8 @@ This spell is important but use only occasionally,
  so you don't have to memorize
 -->
 ### normal mode
-- <C-]> : jump to topic on the cursor. -] ->
-- <C-o> : go back to jump source.
+- `<C-]>` : jump to topic on the cursor. -] ->
+- `<C-o>` : go back to jump source.
 
 ### commandline mode
 - :set ff={dos or unix}
