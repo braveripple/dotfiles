@@ -43,7 +43,7 @@ augroup vimrc
 augroup END
 
 nnoremap <Leader>ev :e ~/dotfiles/.vimrc
-nnoremap <Leader>cv :e ~/dotfiles/cheatsheets/vim.txt
+nnoremap <Leader>cv :e ~/dotfiles/cheatsheets/vim.md
 nnoremap q: <Nop>
 inoremap <silent> jj <ESC>
 inoremap <silent> ｊｊ <ESC>

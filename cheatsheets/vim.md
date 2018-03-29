@@ -68,6 +68,11 @@ This spell is important but use only occasionally,
 - `ZZ`
 - `/{text}<CR>`
 - `n` : find next
+- `w`
+- `W`
+- `b`
+- `B`
+- `e`
 
 ### insert mode
 - `<Esc>`
