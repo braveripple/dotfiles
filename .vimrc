@@ -20,7 +20,6 @@ set wildmenu
 set iminsert=0
 set hlsearch
 set autoindent
-set novisualbell
 
 set noundofile
 set backup
@@ -35,6 +34,9 @@ endif
 set shiftwidth=0 softtabstop=0 tabstop=4 expandtab
 let g:vim_indent_cont=8
 set textwidth=0
+
+set novisualbell
+set list listchars=tab:»\ ,eol:¬,trail:∙
 
 augroup vimrc
     autocmd!
