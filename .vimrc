@@ -20,6 +20,7 @@ set wildmenu
 set iminsert=0
 set hlsearch
 set autoindent
+set novisualbell
 
 set noundofile
 set backup
@@ -43,3 +44,5 @@ augroup END
 nnoremap <Leader>ev :e ~/dotfiles/.vimrc
 nnoremap <Leader>cv :e ~/dotfiles/cheatsheets/vim.txt
 nnoremap q: <Nop>
+inoremap <silent> jj <ESC>
+inoremap <silent> ｊｊ <ESC>
