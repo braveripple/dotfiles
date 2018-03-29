@@ -4,10 +4,10 @@
 <!-- I want to memorize this spell. -->
 
 ### normal mode
-- * :
-- # :
-- g\* :
-- g# : 
+- `*` :
+- `#` :
+- `g*` :
+- `g#` : 
 
 
 ## important
@@ -20,59 +20,59 @@ This spell is important but use only occasionally,
 - `<C-o>` : go back to jump source.
 
 ### commandline mode
-- :set ff={dos or unix}
-- :set fenc={sjis,cp932,utf-8,utf-16le}
+- `:set ff={dos or unix}`
+- `:set fenc={sjis,cp932,utf-8,utf-16le}`
 
 ## memorized.
 <!-- I've memorized the spell! I won't forget it!! -->
 
 ### normal mode
 
-- h  
-- j 
-- k
-- l
-- gj
-- gk
-- gg
-- G
-- ^
-- $
-- dd
-- yy
-- Y : yank(copy) line
-- x : delete
-- p : paste
-- P : shift paste
-- u : undo
-- <C-r> : redo
-- ciw : change insert word
-- ci" :
-- ci' :
-- ci" :
-- i{text}<Esc>
-- a{text}<Esc>
-- A{text}<Esc>
-- S{text}<Esc>
-- o{text}<Esc>
-- <C-a> : increment
-- <C-x> : decrement
-- !!{command}
-- ZZ
-- /{text}
-- n : find next
+- `h`
+- `j`
+- `k`
+- `l`
+- `gj`
+- `gk`
+- `gg`
+- `G`
+- `^`
+- `$`
+- `dd`
+- `yy`
+- `Y` : yank(copy) line
+- `x` : delete
+- `p` : paste
+- `P` : shift paste
+- `u` : undo
+- `<C-r>` : redo
+- `ciw` : change insert word
+- `ci"` :
+- `ci'` :
+- `ci"` :
+- `i{text}<Esc>`
+- `a{text}<Esc>`
+- `A{text}<Esc>`
+- `S{text}<Esc>`
+- `o{text}<Esc>`
+- `<C-a>` : increment
+- `<C-x>` : decrement
+- `!!{command}<CR>`
+- `ZZ`
+- `/{text}<CR>`
+- `n` : find next
 
 ### insert mode
-- <Esc>
-- <C-[>
-- jj 
+- `<Esc>`
+- `<C-[>`
+- `jj`
 
 ### commandline mode
-- :w<CR> : save
-- :w!<CR> : save(force)
-- :q<CR> : quit
-- :q!<CR> : quit(force)
-- :set ff?<CR>
-- :set fenc?<CR>
-- :h {topic}<CR>
+- `:w<CR>` : save
+- `:w!<CR>` : save(force)
+- `:q<CR>` : quit
+- `:q!<CR>` : quit(force)
+- `:set ff?<CR>`
+- `:set fenc?<CR>`
+- `:h {topic}<CR>`
 
