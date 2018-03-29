@@ -39,6 +39,7 @@ set textwidth=0
 augroup vimrc
     autocmd!
     autocmd FileType vim setlocal keywordprg=:help
+    autocmd! FileType markdown hi! def link markdownItalic LineNr
 augroup END
 
 nnoremap <Leader>ev :e ~/dotfiles/.vimrc
