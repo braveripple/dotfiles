@@ -9,6 +9,13 @@
 - `g*` :
 - `g#` : 
 
+### commandline mode
+- `:%s/{before}/{after}/` : replace text
+- `:%s/{before}/{after}/g` : replace text global
+
+
+- `:%s/\(pattern\)/h(\1)/` : use group 
+
 
 ## important
 <!-- 
